@@ -1,0 +1,368 @@
+p
+
+{
+	font-family: arial;
+	font-size: 30px;
+	font-weight: 90px;
+}
+
+h1
+{
+	color: blue;
+}
+.mystyle
+{
+	font-family: arial;
+	font-size: 20px;
+	font-weight: 10px;
+	text-shadow: 10px 9px;
+	color: rgb(34,34,56);
+}
+.style
+{
+	font-family: broad way;
+	font-size: 70px;
+	font-weight: 100px;
+	text-shadow: 10px 10px;
+	color: yellow;
+}
+.stylist
+{
+	font-family: vanna-english kbag;
+	font-size: 100px;
+	text-decoration: 10px;
+	text-overflow: 120px;
+	color: red;
+}
+.css
+{
+	font-family: time new roman;
+	font-size: 70px;
+	background-color: pink;
+	border-color: 20px;
+}
+.borderstyle
+{
+	border-left-style: double;
+	border-right-style: solid;
+	border-top-style: ridge;
+	border-bottom-style: ridge;
+
+	 border-radius: 20px;
+	 border-left-color: blue;
+	 border-right-color: red;
+	 border-top-color: orange;
+	 border-bottom-color: black;
+}
+.image
+{
+	background-image: url("hoodie.jpg");
+	background-repeat: no-repeat;
+	font-size: 20px;
+	background-position: right top;
+	margin-right:50px;
+	background-attachment: fixed;
+	text-transform: capitalize;
+}
+
+.divstyle
+{
+	border: solid 10px tomato;
+	padding:50px;
+	margin : 20px;
+	background-color: pink;
+	max-width: 900px;
+
+	outline-style: dotted;
+	outline-color: dodgerblue;
+	outline-width: 30px;
+	outline-offset: 50px;
+
+	color: purple;
+	text-decoration: underline;
+	text-align: justify;
+	}
+
+.la
+{
+	text-align: left;
+}
+.ra
+{
+	text-align: right;
+}
+.ca
+{
+	text-align: center;
+}*/
+
+body>div>
+>
+{
+background-color: pink;
+}
+.demo
+{
+	background-color: tomato;
+}
+
+p.demo ~ p
+{
+	background-color: red;
+}
+p[class*="a"]
+{
+	background-color: blue;
+}
+
+div p:nth-child(even)
+{
+	background-color: green;
+}
+
+{
+	background-color: red;
+}
+
+p.demo
+{
+	background-color: green;
+}
+
+div p:nth-child(odd)
+{
+	background-color: orange;
+}
+
+
+.tstyle
+{
+	border-collapse: collapse;
+
+}
+
+table tr td
+{
+}
+
+table td:nth-child(even)
+{
+	background-color: #ff0;
+}
+table td:nth-child(odd)
+{
+	background-color: tomato;
+}
+
+table tr td:hover
+{
+	background-color: pink;
+}
+
+
+p
+{
+	 text-align: justify;
+	 text-decoration: underline;
+	 letter-spacing:  2px;
+	 text-transform: capitalize;
+	 word-spacing: 3px;
+	 line-height: 1.5em;
+	 font-size: 10px;
+	 font-family: comic sans MS;
+	 font-weight: bold;
+}
+
+
+
+	
+
+h1
+{
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+b
+{
+	background-color: pink;
+	color: green;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+a:hover
+{
+	color: tomato;
+	background-color: blue;
+
+}
+ul
+{
+	background-color: tomato;
+}
+ul li
+{
+	list-style: square;
+	list-style: outline;
+}
+.general
+{
+	font-size: 30px;
+	position: absolute;
+}
+.t
+{
+	background-color: tomato;
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	font-size: 10px;
+	width: 50px;
+
+	height: 700px;
+}
+.a
+{
+	background-color: red;
+	width: 50px;
+	height: 100px;
+}
+.b
+{
+
+	background-color: blue;
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	font-size: 10px;
+	width: 2000px;
+
+	height: 50px;
+}
+.y
+{
+	background-color: pink;
+	position: absolute;
+	top: 58px;
+	left: 58px;
+	font-size: 10px;
+	width: 50px;
+
+	height: 650px;
+}
+.c
+{
+	background-color: yellow;
+	position: absolute;
+	top: 108px;
+	left: 108px;
+	font-size: 10px;
+	width: 2000px;
+	height: 350px;
+}
+.d
+{
+	background-color: #987;
+	position: absolute;
+	top: 208px;
+	left: 208px;
+	font-size: 10px;
+	width: 50px;
+	height: 500px;
+}
+.e
+{
+	background-color: orange;
+	position: absolute;
+	top: 58px;
+	left: 58px;
+	font-size: 10px;
+	width: 2000px;
+	height: 50px;
+}
+.f
+{
+	background-color: #800;
+	position: absolute;
+	top: 158px;
+	left: 158px;
+	font-size: 10px;
+	width: 2000px;
+	height: 50px;
+}
+
+.o
+{
+	background-color: grey;
+	position: absolute;
+	top: 108px;
+	left: 108px;
+	font-size: 10px;
+	width: 50px;
+	height: 600px;
+}
+
+.h
+{
+	background-color: black;
+	position: absolute;
+	top: 158px;
+	left: 158px;
+	font-size: 10px;
+	width: 50px;
+	height: 550px;
+}
+.i
+{
+	background-color: #345;
+	position: absolute;
+	top: 208px;
+	left: 258px;
+	font-size: 10px;
+	width: 2000px;
+	height: 50px;
+}
+.j
+{
+	background-color: #f99;
+	position: absolute;
+	top: 258px;
+	left: 258px;
+	width: 2000px;
+	height: 50px;
+}
+.k
+{
+	background-color: #f09;
+	position: absolute;
+	top: 308px;
+	left: 258px;
+	width: 50px;
+	height: 400px;
+}
+.l
+{
+	background-color: #f0f;
+	position: absolute;
+	top: 308px;
+	left: 308px;
+	width: 2000px;
+	height: 50px;
+}
+.m
+{
+	background-color: #ff0;
+	position: absolute;
+	top: 358px;
+	left: 308px;
+	width: 50px;
+	height: 50px;
+}
+.n
+{
+	background-color: #0ff;
+	position: absolute;
+	top: 358px;
+	left: 358px;
+	width: 2000px;
+	height: 50px;
+}
