@@ -1,0 +1,12 @@
+// Sum Numbers
+
+function sum (numbers) {
+var i=numbers.length;
+var j=0;
+var plus=0;
+for( j=0;j<i;j++)
+{
+plus=plus+numbers[j];
+}
+return plus;
+}
