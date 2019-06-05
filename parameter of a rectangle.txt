@@ -1,0 +1,13 @@
+var Kata = (function() {
+  function Kata() {}
+
+  Kata.getPerimeter = function(length, width) {
+  
+    // Your code here 
+  
+    return (length+width)*2;
+  };
+
+  return Kata;
+
+})();
